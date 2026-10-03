@@ -14,7 +14,7 @@ from aiogram.types import Message, BufferedInputFile, InlineKeyboardMarkup, Inli
 # Configuration & Tokens
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8693567460:AAGCm7E5sZQe90MU6WP20G_e-R_n22DCjUY").strip()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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").strip()
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 PORT = int(os.getenv("PORT", 5000))
 
 if not BOT_TOKEN or not GROQ_API_KEY:
